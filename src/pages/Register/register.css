@@ -1,0 +1,109 @@
+.Register {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .RegisterWrapper {
+    width: 70%;
+    height: 70%;
+    display: flex;
+  }
+  
+  .RegisterLeft,
+  .RegisterRight {
+    flex: 1;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .RegisterLogo {
+    font-size: 50px;
+    font-weight: 800;
+    color: #1775ee;
+    margin-bottom: 10px;
+  }
+  
+  .RegisterDesc {
+    width: 400px;
+    font-size: 24px;
+  }
+  
+  .RegisterBox{
+      height: 600px;
+      width: 70%;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-bottom: 20px;
+  }
+  .head{
+    text-align: center;
+    border-bottom: 1px solid rgb(206, 204, 204);
+    margin-top: -20px;
+  }
+  .head p{
+    margin-top: -20px;
+  }
+  .name{
+    display: inline-flex;
+    margin: 0 20px 0 20px;
+    justify-content: space-between;
+  }
+  .nameInput{
+    width: 46%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(209, 206, 206);
+    font-size: 18px;
+    text-align: center;
+    /* padding-left: 20px; */
+  }
+
+  .RegisterInput{
+    justify-content: center;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(209, 206, 206);
+    font-size: 18px;
+    margin: 0 20px 0 20px;
+  }
+  
+  .RegisterInput:focus{
+      outline: none;
+  }
+  .signupButton{
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1775ee;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0 20px 0 20px;
+}
+  .RegisterButton{
+      height: 35px;
+      border-radius: 10px;
+      border: none;
+      background-color: #42b72a;
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
+      cursor: pointer;
+      margin: 0 20px 0 20px;
+  }
+  
+  .RegisterForgot{
+      text-align: center;
+      color: #1775ee;
+  }
